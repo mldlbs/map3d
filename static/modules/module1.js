@@ -1,11 +1,14 @@
 import service from '../mapjs/config';
-import iMap from '../libs/supermap/iclient-leaflet/mapUtils.js';
-import { viewer } from '../mapjs/sceneEvent';
+import { viewer, utils } from '../mapjs/sceneEvent';
+
+/**
+ * 模块一
+ */
 export default {
   log() {
-    setTimeout(()=>{
-      console.log(viewer);
-    },1)
+    setTimeout(() => {
+      console.log(viewer, utils);
+    }, 1);
   }
 };
 

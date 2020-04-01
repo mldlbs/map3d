@@ -5,7 +5,7 @@ import { service, URL_CONFIG } from './config';
 /**
  * 三维地图功能入口
  */
-let viewer, scene;
+let viewer, scene, utils;
 export default {
   initScene: function () {
     let cfg = {
@@ -21,6 +21,7 @@ export default {
    * 初始化场景成功回调
    */
   initSceneSuccess: function () {
+    utils = iScene.utils;
   },
 };
-export { viewer, scene };
+export { viewer, scene, utils};

@@ -25,20 +25,10 @@ export default {
       },
       {
         rel: 'stylesheet',
-        href: '/libs/supermap/iclient-leaflet/libs/leaflet.css'
-      },
-      {
-        rel: 'stylesheet',
-        href: '/libs/supermap/iclient-leaflet/libs/iclient-leaflet.min.css'
-      },
-      {
-        rel: 'stylesheet',
         href: '/libs/supermap/iclient-webgl/Build/Cesium/Widgets/widgets.css'
       },
     ],
     script: [
-      { src: '/libs/supermap/iclient-leaflet/libs/leaflet-src.js' },
-      { src: '/libs/supermap/iclient-leaflet/libs/iclient-leaflet-es6.js' },
       { src: '/libs/supermap/iclient-webgl/Build/Cesium/Cesium.js' },
       { src: '/libs/supermap/SuperMap-7.1-11828.js' }
     ]
