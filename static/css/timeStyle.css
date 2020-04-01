@@ -1,0 +1,54 @@
+  .surface-Wrapper {
+    width: 600px;
+    height: 385px;
+    /*background: #000;*/
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .surface-Wrapper > h4 {
+    color: aliceblue;
+    text-align: left;
+    font-size: 16px;
+    padding-left: 8px;
+    padding-top: 6px;
+  }
+  
+  .time {
+    margin-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+  }
+  .time > span {
+    color: aliceblue;
+    margin-right: 2px;
+  }
+  .time > .end {
+    margin-left: 21px;
+  }
+  .time .btn {
+    margin-left: 24px;
+  }
+  
+  .dbwy {
+    width: 600px;
+    height: 265px;
+  }
+  
+  .time >>> .el-date-editor.el-input {
+    width: 85px;
+  }
+  .time >>> .el-input__inner {
+    height: 27px;
+    line-height: 27px;
+  }
+  .time >>> .el-input__icon {
+    line-height: 30px;
+  }
+  .time >>> .el-input--suffix .el-input__inner {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .time >>> .el-input__prefix,
+  .time >>> .el-input__suffix {
+    display: none;
+  }

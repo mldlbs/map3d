@@ -1,0 +1,508 @@
+{
+  "test": [
+    {
+      "id": 131,
+      "pId": -1,
+      "name": "自然资源局",
+      "title": "自然资源局",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 132,
+      "pId": 131,
+      "name": "局领导",
+      "title": "局领导",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 133,
+      "pId": 131,
+      "name": "办公室（财务科）",
+      "title": "办公室（财务科）",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 134,
+      "pId": 131,
+      "name": "人事科",
+      "title": "人事科",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 135,
+      "pId": 131,
+      "name": "法规科(督察办)",
+      "title": "法规科(督察办)",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 136,
+      "pId": 131,
+      "name": "调查监测科",
+      "title": "调查监测科",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 137,
+      "pId": 131,
+      "name": "权益测绘科",
+      "title": "权益测绘科",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 138,
+      "pId": 131,
+      "name": "开发利用科",
+      "title": "开发利用科",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 139,
+      "pId": 131,
+      "name": "空间规划科（市规划委员会办公室）",
+      "title": "空间规划科（市规划委员会办公室）",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 140,
+      "pId": 131,
+      "name": "用途管制科",
+      "title": "用途管制科",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 141,
+      "pId": 131,
+      "name": "工程规划科",
+      "title": "工程规划科",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 142,
+      "pId": 131,
+      "name": "生态修复科",
+      "title": "生态修复科",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 143,
+      "pId": 131,
+      "name": "耕保监督科",
+      "title": "耕保监督科",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 144,
+      "pId": 131,
+      "name": "矿产保护科",
+      "title": "矿产保护科",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 145,
+      "pId": -1,
+      "name": "不动产中心",
+      "title": "不动产中心",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 146,
+      "pId": 145,
+      "name": "局领导",
+      "title": "局领导",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 147,
+      "pId": 145,
+      "name": "办公室",
+      "title": "办公室",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 148,
+      "pId": -1,
+      "name": "移民办",
+      "title": "移民办",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 149,
+      "pId": 148,
+      "name": "局领导",
+      "title": "局领导",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 150,
+      "pId": 148,
+      "name": "办公室",
+      "title": "办公室",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 151,
+      "pId": -1,
+      "name": "执法局",
+      "title": "执法局",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 152,
+      "pId": 151,
+      "name": "局领导",
+      "title": "局领导",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 153,
+      "pId": 151,
+      "name": "办公室",
+      "title": "办公室",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 154,
+      "pId": -1,
+      "name": "储备中心",
+      "title": "储备中心",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 155,
+      "pId": 154,
+      "name": "局领导",
+      "title": "局领导",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 156,
+      "pId": 154,
+      "name": "办公室",
+      "title": "办公室",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 157,
+      "pId": -1,
+      "name": "地灾办",
+      "title": "地灾办",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 158,
+      "pId": 157,
+      "name": "局领导",
+      "title": "局领导",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 159,
+      "pId": 157,
+      "name": "办公室",
+      "title": "办公室",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 160,
+      "pId": -1,
+      "name": "项目中心",
+      "title": "项目中心",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 161,
+      "pId": 160,
+      "name": "局领导",
+      "title": "局领导",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 162,
+      "pId": 160,
+      "name": "办公室",
+      "title": "办公室",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 163,
+      "pId": -1,
+      "name": "信息中心",
+      "title": "信息中心",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 164,
+      "pId": 163,
+      "name": "局领导",
+      "title": "局领导",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 165,
+      "pId": 163,
+      "name": "办公室",
+      "title": "办公室",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 166,
+      "pId": -1,
+      "name": "规划设计院",
+      "title": "规划设计院",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 167,
+      "pId": 166,
+      "name": "局领导",
+      "title": "局领导",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 168,
+      "pId": 166,
+      "name": "办公室",
+      "title": "办公室",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 169,
+      "pId": -1,
+      "name": "城建档案馆",
+      "title": "城建档案馆",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 170,
+      "pId": 169,
+      "name": "局领导",
+      "title": "局领导",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 171,
+      "pId": 169,
+      "name": "办公室",
+      "title": "办公室",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 172,
+      "pId": -1,
+      "name": "新区分局",
+      "title": "新区分局",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 173,
+      "pId": 172,
+      "name": "局领导",
+      "title": "局领导",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 174,
+      "pId": 172,
+      "name": "办公室",
+      "title": "办公室",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 175,
+      "pId": -1,
+      "name": "耀州分局",
+      "title": "耀州分局",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 176,
+      "pId": 175,
+      "name": "局领导",
+      "title": "局领导",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 177,
+      "pId": 175,
+      "name": "办公室",
+      "title": "办公室",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 178,
+      "pId": -1,
+      "name": "王益分局",
+      "title": "王益分局",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 179,
+      "pId": 178,
+      "name": "局领导",
+      "title": "局领导",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 180,
+      "pId": 178,
+      "name": "办公室",
+      "title": "办公室",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 181,
+      "pId": -1,
+      "name": "印台分局",
+      "title": "印台分局",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 182,
+      "pId": 181,
+      "name": "局领导",
+      "title": "局领导",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 183,
+      "pId": 181,
+      "name": "办公室",
+      "title": "办公室",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 184,
+      "pId": -1,
+      "name": "玉华分局",
+      "title": "玉华分局",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 185,
+      "pId": 184,
+      "name": "局领导",
+      "title": "局领导",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    },
+    {
+      "id": 186,
+      "pId": 184,
+      "name": "办公室",
+      "title": "办公室",
+      "checked": false,
+      "open": false,
+      "nocheck": false
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "6102221030005401",
+    "icon": "~/assets/img/actions/icon.png",
+    "position": [
+      38.3225,
+      108.93777778
+    ],
+    "noPopup": "false",
+    "content": ""
+  },
+  {
+    "id": "6102030000001901",
+    "icon": "~/assets/img/actions/icon.png",
+    "position": [
+      35.1125,
+      109.08333333
+    ],
+    "noPopup": "false",
+    "content": ""
+  },
+  {
+    "id": "6102030000002101",
+    "icon": "~/assets/img/actions/icon.png",
+    "position": [
+      35.12083333,
+      109.08722222
+    ],
+    "noPopup": "false",
+    "content": ""
+  },
+  {
+    "id": "6102031020010004",
+    "icon": "~/assets/img/actions/icon.png",
+    "position": [
+      35.09916667,
+      109.42888889
+    ],
+    "noPopup": "false",
+    "content": ""
+  },
+  {
+    "id": "6102031050380404",
+    "icon": "~/assets/img/actions/icon.png",
+    "position": [
+      35.09546389,
+      109.22761667
+    ],
+    "noPopup": "false",
+    "content": ""
+  },
+  {
+    "id": "6102040000004101",
+    "icon": "~/assets/img/actions/icon.png",
+    "position": [
+      34.89944444,
+      109.04027778
+    ],
+    "noPopup": "false",
+    "content": ""
+  },
+  {
+    "id": "6102041030005504",
+    "icon": "~/assets/img/actions/icon.png",
+    "position": [
+      35.20972222,
+      108.82027778
+    ],
+    "noPopup": "false",
+    "content": ""
+  },
+  {
+    "id": "6102041030006101",
+    "icon": "~/assets/img/actions/icon.png",
+    "position": [
+      35.23388889,
+      108.84888889
+    ],
+    "noPopup": "false",
+    "content": ""
+  },
+  {
+    "id": "6102022010006801",
+    "icon": "~/assets/img/actions/icon.png",
+    "position": [
+      35.06888889,
+      109.12916667
+    ],
+    "noPopup": "false",
+    "content": ""
+  },
+  {
+    "id": "6102221000002701",
+    "icon": "~/assets/img/actions/icon.png",
+    "position": [
+      35.4,
+      109.11222222
+    ],
+    "noPopup": "false",
+    "content": ""
+  },
+  {
+    "id": "6102020040004201",
+    "icon": "~/assets/img/actions/icon.png",
+    "position": [
+      35.08361111,
+      109.09833333
+    ],
+    "noPopup": "false",
+    "content": ""
+  },
+  {
+    "id": "6102041070003501",
+    "icon": "~/assets/img/actions/icon.png",
+    "position": [
+      34.91527778,
+      108.75416667
+    ],
+    "noPopup": "false",
+    "content": ""
+  }
+]

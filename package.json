@@ -1,0 +1,40 @@
+{
+  "name": "map3d",
+  "version": "1.0.0",
+  "description": "测绘二院-自然资源三维时空信息平台",
+  "author": "gzq",
+  "private": false,
+  "license": "ISC",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@turf/turf": "^5.1.6",
+    "axios": "^0.17.1",
+    "echarts": "^4.5.0",
+    "element-ui": "^2.12.0",
+    "jquery": "^3.4.1",
+    "nuxt": "^2.0.0",
+    "proj4": "^2.6.0",
+    "socket.io-client": "^2.3.0",
+    "sockjs-client": "^1.4.0",
+    "store": "^2.0.12",
+    "trtc-js-sdk": "^4.1.1",
+    "vue": "^2.5.2",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^6.7.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}

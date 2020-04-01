@@ -1,0 +1,122 @@
+.panelDataTable {
+  position: absolute;
+  left: -350px;
+  width: 350px;
+  height: 100%;
+  background: rgba(0, 16, 47, 0.7);
+  border-right: 1px solid #00ceff;
+  pointer-events: auto;
+  cursor: pointer;
+}
+/* 列表切换项所在div */
+.collapseButtons{
+  position: absolute;
+  height: 100%;
+  width: 24px;
+  left: 350px;
+}
+/* 列表项 */
+.collapse {
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 26.5px;
+  font-size: 14px;
+  color: #eee;
+  background: rgba(0, 16, 47, 0.7);
+  border: 1px solid transparent;
+  border-left: 0;
+  user-select: none;
+}
+
+.collapse.selected{
+  /*box-shadow: 0 0 5px #00ceff inset;*/
+  border: 1px solid #00ceff;
+  border-left: 0;
+  margin-left: -1px;
+  font-weight: bolder;
+  color: #00ceff;
+  background: rgba(0, 16, 47, 0.9);
+}
+
+.others{
+  border: 1px solid #00ceff;
+  border-left: 0;
+  color: #00ceff;
+}
+
+/* 面板内容样式 */
+.panelContent{
+  height: 100%;
+  overflow-y: auto;
+}
+/* 标题 */
+.pTitle {
+  height: 35px;
+  font-size: 18px;
+  color: #00ceff;
+  font-weight: bolder;
+  line-height: 35px;
+  text-align: center;
+  border-top: 1px solid #00ceff;
+  border-bottom: 1px solid #00ceff;
+  background: rgba(0, 16, 47, 0.8);
+}
+/* 内容表格 */
+.panelContent table{
+  width: 100%;
+}
+.listTr{
+  line-height: 30px;
+  font-size: 17px;
+  border-bottom: 1px solid #00ceff;
+}
+.listTr td{
+  border-bottom: 1px solid #00ceff;
+}
+.listTr td:nth-child(1){
+  color:  #00ceff;
+  text-align: center;
+  padding-right: 10px;
+  border-right: 1px solid  #00ceff;
+  clear: both;
+}
+.listTr td:nth-child(2){
+  color:  white;
+  margin-left: -1px;
+  text-indent: 10px;
+  text-align: left;
+}
+.listTr span{
+  float: right;
+  padding: 0 20px;
+  text-indent: 0;
+  color:#00ceff;
+  border-left: 1px solid #00ceff;
+  text-align: center;
+}
+.listTr:hover{
+  font-weight: bolder;
+  box-shadow:0 0 10px #00ceff;
+}
+.listTr:hover td:nth-child(1){
+  background: rgba(0, 16, 47, 0.8);
+}
+.listTr:hover span{
+  background: rgba(0, 16, 47, 0.8);
+}
+/*滚动条样式*/
+.panelContent::-webkit-scrollbar {
+  width: 5px;
+  height: 15px;
+  background-color: #00ceff;
+}
+.panelContent::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgb(0, 16, 47);
+  border-radius: 5px;
+  background-color: rgba(0, 16, 47, 0.8);
+}
+.panelContent::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px #00ceff;
+  background-color: #00ceff;
+}

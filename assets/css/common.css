@@ -1,0 +1,86 @@
+body {
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: transparent; /*滚动条的背景颜色*/
+    -webkit-border-radius: 2px; /*滚动条的圆角宽度*/
+}
+
+::-webkit-scrollbar {
+    width: 4px; /*滚动条的宽度*/
+    height: 2px; /*滚动条的高度*/
+    background: transparent;
+}
+
+/*垂直滚动条的样式*/
+::-webkit-scrollbar-thumb:vertical {
+    height: 50px;
+    background-color: rgba(0, 16, 47, .7);
+    -webkit-border-radius: 10px;
+    outline: 2px solid rgb(23, 67, 88);
+    outline-offset: -2px;
+    border: 2px solid rgb(28, 119, 144);
+}
+
+/*滚动条的hover样式*/
+::-webkit-scrollbar-thumb:hover {
+    height: 50px;
+    background-color: #9f9f9f;
+    -webkit-border-radius: 4px;
+}
+
+/*工具箱样式*/
+.tool {
+    width: 100px;
+}
+
+.tool .el-menu--collapse .el-menu .el-submenu, .el-menu--popup {
+    min-width: 100px;
+    color: #fff;
+}
+
+.tool .el-menu--collapse .el-menu .el-submenu, .el-menu--popup li {
+    color: #fff !important;
+    font-size: 12px;
+}
+
+.tool ul li img {
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+/*下拉选择*/
+.el-select-dropdown {
+    margin-top: 2px !important;
+    background-color: rgba(0, 16, 47, .7);
+    border: none;
+    color: #fff;
+    font-weight: normal;
+    border-radius: 5px;
+}
+
+.el-select-dropdown .popper__arrow {
+    border-bottom-color: rgba(0, 16, 47, .7) !important;
+}
+
+.el-select-dropdown .popper__arrow::after {
+    border-bottom-color: rgba(0, 16, 47, .7) !important;
+}
+
+.el-select-dropdown .el-scrollbar .el-select-dropdown__list {
+    padding: 0;
+}
+
+.el-select-dropdown .el-scrollbar .el-select-dropdown__list .el-select-dropdown__item {
+    color: #e9e9e9;
+    height: 22px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.el-select-dropdown .el-scrollbar .el-select-dropdown__list .el-select-dropdown__item.hover, .el-select-dropdown__item:hover {
+    background-color: rgba(0, 16, 47, .8);
+    color: #07bdfc88;
+}
