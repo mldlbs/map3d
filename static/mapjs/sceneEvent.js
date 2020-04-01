@@ -1,10 +1,11 @@
 /* eslint-disable */
 import iScene from '../libs/supermap/iclient-webgl/sceneUtils';
-import {service,URL_CONFIG} from './config';
+import { service, URL_CONFIG } from './config';
+
 /**
  * 三维地图功能入口
  */
-export let viewer, scene;
+let viewer, scene;
 export default {
   initScene: function () {
     let cfg = {
@@ -15,7 +16,6 @@ export default {
     };
     viewer = iScene.initScene(cfg);
     scene = viewer.scene;
-
   },
   /**
    * 初始化场景成功回调
@@ -23,3 +23,4 @@ export default {
   initSceneSuccess: function () {
   },
 };
+export { viewer, scene };

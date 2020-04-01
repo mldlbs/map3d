@@ -1,17 +1,12 @@
 <template>
   <div id="map" class="map">
-<!--    <MAP2D ref="map2d" v-show="tag === 0 || tag === 1"/>-->
     <MAP3D v-show="tag === 2"/>
-<!--    <SwitchMap/>-->
-<!--    <Tools/>-->
   </div>
 </template>
 <script>
   import {mapState, mapActions, mapMutations} from 'vuex';
-  import main from '@/static/mapjs/main'
-  import MAP2D from '~/components/map/Map2D.vue'
+  import main from '../../static/mapjs/main'
   import MAP3D from '~/components/map/Map3D.vue'
-  import SwitchMap from '~/components/map/Switch.vue'
   import Tools from '~/components/map/Tools.vue'
 
   import '~/assets/css/localCircleAnimate.css'
@@ -30,13 +25,10 @@
     watch: {
       'Gis.TAG'() {
         this.tag = this.Gis.TAG;
-        if (this.tag !== 2) {
-          main['mapEvent'].changeMap(this.tag);
-        }
       }
     },
     components: {
-      MAP2D, MAP3D, SwitchMap, Tools
+       MAP3D, Tools
     },
     mounted: function () {
     },
