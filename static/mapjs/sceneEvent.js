@@ -16,13 +16,27 @@ export default {
     };
     viewer = iScene.initScene(cfg);
     scene = viewer.scene;
-    handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas)
+    handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
   },
   /**
    * 初始化场景成功回调
    */
   initSceneSuccess: function () {
     utils = iScene.utils;
+    this.infoBoxMove();
+
   },
+  /**
+   * 弹框跟随
+   */
+  infoBoxMove() {
+    scene.postRender.addEventListener(() => {
+      let heading = scene.camera.heading;
+      let x = -Cesium.Math.toDegrees(heading);
+      let degrees = 'rotate(' + x + 'deg)';
+      let infoBox = document.getElementById('.infoBox');
+      infoBox.style.transform = degrees;
+    });
+  }
 };
-export { viewer, scene, utils, handler};
+export { viewer, scene, utils, handler };
