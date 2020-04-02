@@ -5,7 +5,7 @@ import { service, URL_CONFIG } from './config';
 /**
  * 三维地图功能入口
  */
-let viewer, scene, utils;
+let viewer, scene, handler, utils;
 export default {
   initScene: function () {
     let cfg = {
@@ -16,6 +16,7 @@ export default {
     };
     viewer = iScene.initScene(cfg);
     scene = viewer.scene;
+    handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas)
   },
   /**
    * 初始化场景成功回调
@@ -24,4 +25,4 @@ export default {
     utils = iScene.utils;
   },
 };
-export { viewer, scene, utils};
+export { viewer, scene, utils, handler};

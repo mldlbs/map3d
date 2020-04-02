@@ -11,7 +11,7 @@
     components: {
     },
     mounted() {
-      module1.log();
+      module1.init();
     },
     methods: {},
     beforeDestroy() {
