@@ -12,7 +12,7 @@
     </div>
     <div class="map-title">
       <div class="title-left"></div>
-      <div class="title-font">自然资源三维立体时空信息平台（西藏）</div>
+      <div class="title-font">自然资源三维时空信息平台（西藏）</div>
       <div class="title-right"></div>
     </div>
     <div class="map-title-space map-title-right">
